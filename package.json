@@ -1,5 +1,5 @@
 {
-  "name": "birthday-app",
+  "name": "my-birthday-app",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -16,5 +16,8 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.8"
+  },
+  "allowScripts": {
+    "esbuild": true
   }
 }
