@@ -5,7 +5,7 @@ import LetterEnvelope from './components/LetterEnvelope';
 import Fireworks from './components/Fireworks';
 
 // Local image import
-import surpriseImage from './assets/photo.jpeg'; 
+import surpriseImage from './assets/photo.JPEG'; 
 
 const RECIPIENT_NAME = "Biboy";
 const LETTER_MESSAGE = `To my one and only Biboy,
