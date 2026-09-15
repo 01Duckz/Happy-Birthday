@@ -11,7 +11,7 @@ export default function LetterEnvelope({ message, recipientName }) {
 
   return (
     <div className="d-flex flex-column align-items-center w-100">
-      <h5 className="fw-bold mb-5 text-warning text-center">A Special Letter For You</h5>
+      <h5 className="fw-bold mb-5 text-warning text-center">A Letter to me lalabs</h5>
 
       {/* Interactive Envelope */}
       <div onClick={handleEnvelopeClick} className="envelope-container shadow-lg">
@@ -24,7 +24,7 @@ export default function LetterEnvelope({ message, recipientName }) {
           data-bs-toggle={envelopeOpen ? "modal" : ""}
           data-bs-target={envelopeOpen ? "#letterModal" : ""}
         >
-          <p className="small mb-1 text-truncate fw-bold text-rose-900">Dearest {recipientName},</p>
+          <p className="small mb-1 text-truncate fw-bold text-rose-900">Yo {recipientName}!,</p>
           <p className="small text-muted mb-0" style={{ fontSize: '0.75rem', lineHeight: '1.2' }}>
             Tap here to open and read your letter...
           </p>
@@ -43,7 +43,7 @@ export default function LetterEnvelope({ message, recipientName }) {
           <div className="modal-content custom-modal-content rounded-4 shadow-2xl">
             <div className="modal-header border-bottom border-amber-900 border-opacity-10">
               <h5 className="modal-title font-serif text-rose-900 fw-bold" id="letterModalLabel">
-                💌 Happy Birthday, My Love
+                💌 Happy Birthday, My Biboy
               </h5>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
